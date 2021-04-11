@@ -4,10 +4,10 @@ In this repo, I presented three different classes presenting two different unit 
 
 Greeter
 
-1 - The greeter should return a greeting message based on the time of the day we are.
-  a - If it is in the morning, The greeting should be "Good Morning"
-  b - If it is afternoon, The greeting should be "Good Afternoon"
-  c - If it is night, The greeting should be "Good night"
+1. The greeter should return a greeting message based on the time of the day we are.
+    - If it is in the morning, The greeting should be "Good Morning"
+    - If it is afternoon, The greeting should be "Good Afternoon"
+    - If it is night, The greeting should be "Good night"
 
 String Calculator
 
