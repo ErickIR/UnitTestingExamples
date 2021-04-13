@@ -23,7 +23,7 @@ Test-driven development (TDD) is a software development process relying on softw
 1. You are not allowed to write any production code unless it is to make a failing unit test pass.
 2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
 3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
-4. ## TEST OFTEN
+4. **TEST OFTEN**
 
 Which means the workflow is:
 
@@ -74,6 +74,10 @@ All tests should always pass, regardless of environment conditions.
 5. `greet` returns `Good evening <name>` when the time is 18:00-22:00
 6. `greet` returns `Good night <name>` when the time is 22:00-06:00
 7. `greet` logs into console each time it is called
+
+## Game of Life
+
+https://kata-log.rocks/game-of-life-kata
 
 ## Advantages and Disadvantages
 
