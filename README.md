@@ -75,9 +75,8 @@ All tests should always pass, regardless of environment conditions.
 6. `greet` returns `Good night <name>` when the time is 22:00-06:00
 7. `greet` logs into console each time it is called
 
-## Game of Life
-
-https://kata-log.rocks/game-of-life-kata
+## Todo List
+http://www.tddbuddy.com/katas/Todo%20List.pdf
 
 ## Advantages and Disadvantages
 
