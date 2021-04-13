@@ -58,3 +58,7 @@ All tests should always pass, regardless of environment conditions.
 ## Advantages and Disadvantages
 
 https://www.geeksforgeeks.org/advantages-and-disadvantages-of-test-driven-development-tdd/
+
+## Classicist vs Mockist
+
+https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/
