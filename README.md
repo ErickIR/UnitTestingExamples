@@ -1,3 +1,23 @@
+## What's TDD?
+Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is opposed to software being developed first and test cases created later. 
+
+## How to TDD? and what's Red-Green-Refactor?
+1. Add a test
+2. Run all tests. The new test should fail because it should not be implemented yet.
+3. Write the simples code that passes the new test.
+4. All tests should now pass.
+5. Refactor as needed, using tests after each refactor to ensure that functionality is preserved.
+* **SOLID**
+* **DRY**
+* **KISS**
+* **YAGNI**
+
+## Test Structure
+* Arrange
+* Act
+* Assert
+* Cleanup
+
 ## The Three Rules of TDD
 
 1. You are not allowed to write any production code unless it is to make a failing unit test pass.
@@ -9,11 +29,6 @@ Which means the workflow is:
 1. Write a failing test. Stop writing the test as soon as it fails.
 2. Write the minimal production code required for the test to pass. Stop writing any code once the test passes.
 3. Refactor the test code and the production code without altering the functionality. All tests should pass.
-
-## Usage
-To run the tests, run `npm run test`.
-
-For a true TDD experience: use [wallaby.js](https://wallabyjs.com/) with the included `wallaby.js` file.
 
 # Katas
 
@@ -35,27 +50,17 @@ All tests should always pass, regardless of environment conditions.
 6. `greet` returns `Good night <name>` when the time is 22:00-06:00
 7. `greet` logs into console each time it is called
 
-## String Calculator
-Made popular by [Roy Osherove](http://osherove.com/tdd-kata-1/).
+## Advantages and Disadvantages
 
-#### Before you start:
-* **Try not to read ahead.**
-* **Do one task at a time. The trick is to learn to work incrementally.**
-* **Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata**
+https://www.geeksforgeeks.org/advantages-and-disadvantages-of-test-driven-development-tdd/
 
-This kata is one of the simplest and best ways to practice step-by-step fluent tdd, and provides an easy way to get proficient in a language.
+## Classicist vs Mockist
 
-Write a method `add` under an object `StringCalculator` that, given a delimited string, returns the sum of the numbers in the string.
+https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/
 
-1. An empty string returns zero `'' => 0`
-2. A single number returns the value `'1' => 1` `'2' => 2`
-3. Two numbers, comma delimited, returns the sum `'1,2' => 3` `'10,20' => 30`
-4. Two numbers, newline delimited, returns the sum `'1\n2' => 3`
-5. Three numbers, delimited either way, returns the sum `'1\n2,3\n4' => 10`
-6. Negative numbers throw an exception with the message `'-1,2,-3' => 'negatives not allowed: -1,-3'`
+## Resources
+* https://github.com/wix/tdd-katas
+* https://en.wikipedia.org/wiki/Test-driven_development
+* https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm
+* https://www.guru99.com/unit-testing-guide.html
 
-**stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.**
-
-7. Numbers greater than 1000 are ignored
-8. A single char delimiter can be defined on the first line starting with `//` (e.g `//#\n1#2` for a ‘#’ as the delimiter)
-9. A multi char delimiter can be defined on the first line starting with `//` (e.g. `//###\n1###2` for ‘###’ as the delimiter)
