@@ -7,10 +7,10 @@ Test-driven development (TDD) is a software development process relying on softw
 3. Write the simples code that passes the new test.
 4. All tests should now pass.
 5. Refactor as needed, using tests after each refactor to ensure that functionality is preserved.
-* **SOLID**
-* **DRY**
-* **KISS**
-* **YAGNI**
+  - **SOLID**
+  - **DRY**
+  - **KISS**
+  - **YAGNI**
 
 ## Test Structure
 * Arrange: Set up all conditions needed for testing (create any required objects, allocate any needed resources, and so on).
