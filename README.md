@@ -30,11 +30,6 @@ Which means the workflow is:
 2. Write the minimal production code required for the test to pass. Stop writing any code once the test passes.
 3. Refactor the test code and the production code without altering the functionality. All tests should pass.
 
-## Usage
-To run the tests, run `npm run test`.
-
-For a true TDD experience: use [wallaby.js](https://wallabyjs.com/) with the included `wallaby.js` file.
-
 # Katas
 
 ## Greeter
@@ -62,3 +57,10 @@ https://www.geeksforgeeks.org/advantages-and-disadvantages-of-test-driven-develo
 ## Classicist vs Mockist
 
 https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/
+
+## Resources
+* https://github.com/wix/tdd-katas
+* https://en.wikipedia.org/wiki/Test-driven_development
+* https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm
+* https://www.guru99.com/unit-testing-guide.html
+
